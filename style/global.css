@@ -1,0 +1,118 @@
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+/*--------------------------------------------------------------
+                     TOPBAR
+--------------------------------------------------------------*/
+
+#topbar {
+    background: #71a5de;
+    color: #010c17;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.contact-info i {
+    display: flex;
+    align-items: center;
+    margin-right: 5px; 
+    color: #f8f9fb;
+}
+
+.contact-info span {
+    margin-left: 5px; 
+    color: #010c17;
+}
+
+.social-links a i {
+    color: #f8f9fb;
+    margin-left: 20px;
+}
+
+/*--------------------------------------------------------------
+                     NAVBAR
+--------------------------------------------------------------*/
+
+.navbar {
+    background-color: #f8f9fb;
+    border-bottom: 2px solid #5d7bd5;
+}
+
+.navbar .navbar-brand.d-flex {
+    align-items: center;
+}
+
+.navbar .navbar-brand img {
+    width: 20%; 
+    margin-right: 10px; 
+}
+
+.navbar .navbar-brand h3 {
+    margin: 0; 
+    text-decoration: none;
+    color: #5d7bd5 ;
+}
+
+.nav-link {
+    text-decoration: none;
+    color: #71a5de;
+}
+
+.nav-link:hover,
+.nav-link:active,
+.nav-link.active {
+    color: #5d7bd5 !important;
+    padding-bottom: 0.25rem !important;
+    border-bottom: 4px solid #5d7bd5 !important;
+}
+
+/*--------------------------------------------------------------
+            BUTTON
+--------------------------------------------------------------*/
+
+.btn-pertama {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    border-color: #5d7bd5;
+    background: #5d7bd5;
+    color: white;
+}
+
+.btn-kedua {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #8671e1;
+    color: white;
+}
+
+.btn-ketiga {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #f55c7a;
+    color: white;
+}
+
+.btn-keempat {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px 20px;
+    border-radius: 50px;
+    background: #6071d7;
+    color: white;
+    width: 100%;
+}
+
+/*--------------------------------------------------------------
+                # FOOTER
+--------------------------------------------------------------*/
+#footer {
+    background: #f8f9fb;
+    padding: 30px 0;
+}

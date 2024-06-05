@@ -1,0 +1,97 @@
+/*--------------------------------------------------------------
+            HOME: CONTENT 1
+--------------------------------------------------------------*/
+.card {
+    position: relative;
+    border: none;
+}
+
+.card-title {
+    text-align: left;
+}
+
+.card-img-overlay {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    color: #010c17;
+}
+
+.image-box {
+    max-height: 400px;
+    overflow: hidden;
+}
+
+.image-box img {
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+    object-position: center;
+}
+
+@media (max-width: 767px) {
+    .card-title {
+        text-align: center;
+        padding-top: 11%;
+        font-size: 0.8em;
+    }
+
+    .card-text {
+        font-size: 0.8em;
+    }
+
+    .card-img-overlay {
+        padding-top: 10%;
+    }
+
+    .btn-start {
+        padding: 8px 20px;
+        margin-bottom: 15px;
+    }
+
+    .rounded {
+        border-radius: 0; 
+    }
+
+    .input-group {
+        font-size: 10px; 
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .form-control {
+        font-size: 12px; 
+        width: 100%; 
+    }
+    
+}
+
+/*--------------------------------------------------------------
+            LOGIN PAGE
+--------------------------------------------------------------*/
+.about .col-6 {
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.materials {
+    background-color: #f2ebfb;
+    border-top-right-radius: 100px; 
+    border-bottom-left-radius: 100px;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
+
+.materials2 {
+    background-color: #e2eafc;
+    border-top-right-radius: 100px; 
+    border-bottom-left-radius: 100px;
+    padding-left: 100px;
+    padding-right: 100px; 
+}
